@@ -6,6 +6,6 @@ import numpy as np
 
 P=[float(x) if '.' in x else int(x) for x in input().split()]
 
-x=int(input())
+x=float(input())
 
 print(np.polyval(P,x))
