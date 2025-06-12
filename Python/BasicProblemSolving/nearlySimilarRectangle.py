@@ -8,13 +8,6 @@ import sys
 from collections import defaultdict
 
 
-#
-# Complete the 'nearlySimilarRectangles' function below.
-#
-# The function is expected to return a LONG_INTEGER.
-# The function accepts 2D_LONG_INTEGER_ARRAY sides as parameter.
-#
-
 def nearlySimilarRectangles(sides):
     
 
