@@ -4,7 +4,7 @@ import random
 import re
 import sys
 def solve(s):
-    return ' '.join(word.capitalize() for word in s.split())
+    return ''.join(c.capitalize() if i == 0 or s[i-1] == ' ' else c for i, c in enumerate(s))
     
 
 if __name__ == '__main__':
