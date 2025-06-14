@@ -1,3 +1,8 @@
+
+
+
+
+
 def print_formatted(number):
     width = len(bin(number)[2:])  
     
